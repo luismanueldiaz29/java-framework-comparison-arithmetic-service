@@ -7,7 +7,7 @@ import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
-@Path("/quarkus/math")
+@Path("/math")
 @Produces(MediaType.APPLICATION_JSON)
 public class ArithmeticController {
 
